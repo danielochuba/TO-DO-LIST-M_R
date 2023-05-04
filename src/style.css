@@ -4,11 +4,13 @@
   font-weight: 100;
   font-size: small;
 }
+
 body {
   background: rgb(255, 247, 247);
   display: grid;
   place-items: center;
 }
+
 .main {
   width: 50%;
   height: auto;
@@ -16,16 +18,19 @@ body {
   margin-top: 80px;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
 .top {
   display: flex;
   justify-content: space-between;
   font-weight: 600;
 }
+
 li {
   padding: 2px 8px;
   height: 40px;
@@ -34,6 +39,7 @@ li {
   display: flex;
   align-items: center;
 }
+
 input {
   border: none;
   margin: 0;
@@ -42,34 +48,42 @@ input {
   padding-left: 2px;
   font-style: italic;
 }
+
 img {
   height: 18px;
   width: 18px;
 }
+
 .newlist {
   display: flex;
   padding: 4px 8px;
   justify-content: space-between;
   align-items: center;
 }
+
 .check {
   width: 18px;
   height: 18px;
 }
+
 .text {
   width: 90%;
 }
+
 .text.complete {
   text-decoration: line-through;
 }
+
 .newlist.complete li {
   text-decoration: line-through;
 }
+
 .delete {
   border-style: none;
   width: 18px;
   height: 18px;
 }
+
 .clear {
   height: 40px;
   display: flex;
