@@ -67,7 +67,7 @@ const newTodo = (e) => {
   const newTodo = {
     description: newTask,
     completed: false,
-    id: Date.now(),
+    id: todos.length,
   };
 
   document.getElementById('taskInput').value = '';
