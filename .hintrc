@@ -11,7 +11,6 @@
     "button-type",
     "disown-opener",
     "meta-charset-utf-8",
-    "meta-viewport",
     "no-inline-styles:error"
   ]
 }
