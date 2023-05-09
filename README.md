@@ -33,6 +33,8 @@
 
 # 📖 To Do List <a name="about-project"></a>
 
+<img src="./app-img.png" alt="logo"  height="auto" />
+</div>
 
 **To Do List** is a simple project developed by javascript and webpack, showing the simple list of tasks or exc to do with dynamic values.
 
