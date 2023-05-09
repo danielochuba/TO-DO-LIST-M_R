@@ -36,7 +36,7 @@
 <img src="./app-img.png" alt="logo"  height="auto" />
 </div>
 
-**To Do List** is a simple project developed by javascript and webpack, showing the simple list of tasks or exc to do with dynamic values.
+**To Do List** This is a To-Do list app. It allows users to SAVE and DELETE tasks after input, MARK(check ✔) completed tasks, and Clear all completed tasks. It uses Local storage to store tasks, to avoid task loss after page reload or browser close..
 
 ## 🛠 Built With <a name="built-with"></a>
 
