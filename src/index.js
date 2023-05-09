@@ -3,6 +3,7 @@ import tasksRefactor from '../modules/TaskHandle.js';
 
 const newTodoForm = document.querySelector('#form-sec');
 const todoList = document.querySelector('.task-section');
+const removeMarked = document.querySelector('.clearComplete');
 
 const updateInputText = (id, newText) => {
   const todoListArray = JSON.parse(localStorage.getItem('todos') || '[]');
@@ -33,6 +34,18 @@ const removeTodo = (targetIndex) => {
   const todoListArr = JSON.parse(localStorage.getItem('todos') || '[]');
   const updateList = todoListArr.filter((todo) => todo.id !== parseInt(targetIndex, 10));
   tasksRefactor(updateList);
+  // eslint-disable-next-line no-restricted-globals
+  location.reload();
+};
+
+const removeCompleted = () => {
+  let updtArr = [];
+  const todoListArray = JSON.parse(localStorage.getItem('todos') || '[]');
+
+  updtArr = todoListArray.filter((todo) => todo.completed !== true);
+
+  localStorage.setItem('todos', JSON.stringify(updtArr));
+  tasksRefactor(updtArr);
   // eslint-disable-next-line no-restricted-globals
   location.reload();
 };
@@ -80,5 +93,9 @@ const addDisplay = () => {
   const todos = JSON.parse(localStorage.getItem('todos') || '[]');
   updateList(todos);
 };
+
+removeMarked.addEventListener('click', () => {
+  removeCompleted();
+});
 
 addDisplay();

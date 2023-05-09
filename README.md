@@ -148,13 +148,6 @@ To run the project, execute the following command:
 
 No Tests Necessary.
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
@@ -169,6 +162,11 @@ Example:
  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+> - [TO-DO LIST APP](https://danielochuba.github.io/TO-DO-LIST-M_R/)
 
 <!-- AUTHORS -->
 
