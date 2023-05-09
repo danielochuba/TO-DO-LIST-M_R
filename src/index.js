@@ -39,18 +39,15 @@ const removeTodo = (targetIndex) => {
 };
 
 const removeCompleted = () => {
-  const updtArr = [];
+  let updtArr = [];
   const todoListArray = JSON.parse(localStorage.getItem('todos') || '[]');
 
-  // eslint-disable-next-line no-restricted-syntax
-  for (const todo of todoListArray) {
-    if (!todo.completed) {
-      updtArr.push(todo);
-    }
-  }
+  updtArr = todoListArray.filter((todo) => todo.completed !== true);
 
   localStorage.setItem('todos', JSON.stringify(updtArr));
   tasksRefactor(updtArr);
+  // eslint-disable-next-line no-restricted-globals
+  location.reload();
 };
 
 const updateList = (todos) => {

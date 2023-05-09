@@ -148,13 +148,6 @@ To run the project, execute the following command:
 
 No Tests Necessary.
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
