@@ -80,7 +80,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://danielochuba.github.io/TO-DO-LIST-M_R/dist/index.html)
+  - [TO DO APP](https://danielochuba.github.io/TO-DO-LIST-M_R/dist/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,12 +163,6 @@ Example:
 ```
  -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-> - [TO-DO LIST APP](https://danielochuba.github.io/TO-DO-LIST-M_R/)
 
 <!-- AUTHORS -->
 
